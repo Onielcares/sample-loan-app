@@ -20,7 +20,7 @@ export const connectToDB = async () => {
   try {
     await sequelize.authenticate();
     logger.info('Database connected successfully');
-    await sequelize.sync(); // or .sync({ alter: true }) if you want auto updates
+    await sequelize.sync();
     logger.info('All Models and Table Accessed');
   } catch (error) {
     logger.error(`DB connection failed: ${error}`);
