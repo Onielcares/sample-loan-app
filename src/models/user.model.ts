@@ -59,7 +59,7 @@ User.init({
     type: DataTypes.STRING,
     unique: true,
     validate: {
-      is: /^\d{11}$/, // Nigerian NIN format
+      is: /^\d{11}$/,
     },
   },
   phone: DataTypes.STRING,

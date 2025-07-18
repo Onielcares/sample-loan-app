@@ -11,7 +11,6 @@ import { NotAcceptableError, createNotAcceptableError } from './Unacceptable';
 import { CustomError } from './CustomError';
 
 export {
-  // Error classes
   BadRequestError,
   ConflictError,
   MethodNotAllowedError,
@@ -21,8 +20,6 @@ export {
   ForbiddenError,
   NotAcceptableError,
   CustomError,
-
-  // Creator functions
   createBadRequestError,
   createConflictError,
   createMethodNotAllowedError,
